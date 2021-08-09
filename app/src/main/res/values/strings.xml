@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name"> questonnaire style: qui veut gagner des millions </string>
+    <string name="quiz">quiz!</string>
+    <string name="q1"> kevin lève la TMax en ? </string>
+    <string name="q2"> Quel est la couleur du cheval blanc Henri iv ?</string>
+    <string name="r1">I</string>
+    <string name="r2">L</string>
+    <string name="r3">D</string>
+    <string name="r4">Y</string>
+    <string name="r11">Rouge</string>
+    <string name="r12">Gris</string>
+    <string name="r13">Blanc</string>
+    <string name="r14">RGB 255,255,255 </string>
+    <string name="question1"> Question </string>
+    <string name="question3">/2 </string>
+    <string name="question4"> 1</string>
+    <string name="question5"> 2</string>
+    <string name="question2"> Question </string>
+</resources>

@@ -16,15 +16,12 @@ class MainActivity : AppCompatActivity() {
         val boutttonretour2 = findViewById<Button>(R.id.r3)
         val boutttonretour3 = findViewById<Button>(R.id.r4)
 
-        /*val intent = Intent(this@MainActivity,MainActivity2::class.java)
-        var number = 1
-        intent.putExtra("number","1")
-        startActivity(intent)*/
 
 
 
 
-        val monIntent : Intent =  Intent(this,MainActivity2::class.java)
+
+        val monIntent =  Intent(this,MainActivity2::class.java)
 
         boutttonretour.setOnClickListener {
             Toast.makeText(this,
@@ -50,6 +47,11 @@ class MainActivity : AppCompatActivity() {
             startActivity(monIntent)
         }
 
+
+        val intent = Intent(this,MainActivity2::class.java)
+        val number = 1
+        intent.putExtra("compteur",number)
+        startActivity(intent)
 
     }
 }

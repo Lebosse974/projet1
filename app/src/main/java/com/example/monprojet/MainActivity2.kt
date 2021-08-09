@@ -18,13 +18,7 @@ class MainActivity2 : AppCompatActivity() {
         val boutttonretour2 = findViewById<Button>(R.id.r13)
         val boutttonretour3 = findViewById<Button>(R.id.r14)
 
-        /* ------------------------------------ MON COMPTEUR -------------------
-        val Compteur = findViewById<TextView>(R.id.compteur)
-        val cont = intent.getStringExtra("number")
-        if(number == 1 ){
-        number +=1
-            compteur.text = number.toString()
-        }*/
+
 
 
 
@@ -72,6 +66,13 @@ class MainActivity2 : AppCompatActivity() {
 
         }
 
+        // ------------------------------------ MON COMPTEUR -------------------
+        val compteure = findViewById<TextView>(R.id.compteur)
+        var number= intent.getIntExtra("compteur",0)
+        if(number == 1 ){
+            number +=1
+            compteure.text = number.toString()
+        }
 
     }
 }
